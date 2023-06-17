@@ -5,6 +5,8 @@ Outputs new lines to `stdout` too, making it a bit like a `tee -a` that removes 
 
 ## Installation
 
+To install the binary, clone the git repository and build the golang binary locally.
+
 ```
 git clone https://github.com/SecGus/anewer.git
 cd anewer
