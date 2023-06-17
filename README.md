@@ -3,6 +3,14 @@
 Append lines from stdin to a file, but only if they don't already appear in the file.
 Outputs new lines to `stdout` too, making it a bit like a `tee -a` that removes duplicates.
 
+## Installation
+```
+git clone https://github.com/SecGus/anewer.git
+cd anewer
+go build anewer.go
+sudo mv ./anewer /usr/bin/
+```
+
 ## Usage Example
 
 Here, the files called `things.txt` and `things2.txt` contain lists of numbers. `newthings.txt` contains a second
